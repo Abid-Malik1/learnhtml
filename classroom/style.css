@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+}
+
+big{
+    color: green;
+}
+p{
+    color: yellowgreen;
+}
+
+button{
+    background-color: white;
+    color: yellow;
+}
+
+h4{
+    background-color: rgb(240, 15, 100);
+}
