@@ -11,9 +11,38 @@ p{
 
 button{
     background-color: white;
-    color: yellow;
+    color: black;
 }
 
 h4{
     background-color: rgb(240, 15, 100);
+}
+
+h5{
+    color: #ffff00;
+}
+
+#heading1 {
+    color: pink;
+}
+
+.class1 {
+    color: crimson;
+}
+
+#box{
+    -ms-text-underline-position: under;
+    color: white;
+    background-color: red;
+    
+}
+.part2{
+    color: aqua;
+    font-style: oblique;
+    font-weight: bold;
+    
+}
+
+#submit{
+    color: goldenrod;
 }
