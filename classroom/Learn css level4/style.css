@@ -1,0 +1,39 @@
+header {
+  text-align: center;
+}
+
+body {
+  text-align: center;
+  border: solid 1px black;
+  display: inline-block;
+  
+}
+
+#container {
+  height: 500px;
+  width: 200;
+ 
+  
+ 
+}
+
+#box1 {
+  
+  background-color: green;
+  
+}
+#box2 {
+ 
+  background-color: red;
+  /* display: inline-block; */
+}
+#box3 {
+  
+  background-color: aqua;
+  /* display: inline-block; */
+}
+#box4 {
+ 
+  background-color: tomato;
+  /* display: inline-block; */
+}
