@@ -32,24 +32,32 @@ div{
 #box1{
     position: static;
     background-color: red;
+    background-image: url("https://alhamdtech.pk/cdn/shop/files/SonyWH-CH520BluetoothHeadphonesBlack.1.png?v=1688813975");
+    background-size: cover;
 }
 
 #box2{
     background-color: green;
+    background-image: url("https://profit.pakistantoday.com.pk/wp-content/uploads/2023/07/pp.jpg");
+    background-size: contain;
     position: relative;
     top: 20px;
 }
 
 #box3{
     background-color: blue;
+    background-image: url("https://www.purina.co.uk/sites/default/files/2023-03/Teaser%20Pedigree%20Cats.jpg");
+   background-size: cover;
     position: absolute;
     top: 300px;
 }
 
 #box4{
     position: fixed;
-   
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyRXOat2wRgu6aCu4dR6nrZ8BKsdQnFWwkPg&s");
+   background-size: cover;
     bottom: 0px;
     background-color: yellow;
     width: 10%;
+    z-index: 4;
 }
