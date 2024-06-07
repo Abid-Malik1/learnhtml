@@ -31,16 +31,16 @@ a{
     height: 100px;
     width: 100px;
    border: solid;
-   border-color: red;
-   border-width: 2px;
+   border-color: black;
+   border-width: 1px;
    display: inline-block;
    background-color: #f08804;
 
 }
 
 .footer{
-    color: #0f1111;
+    color:white;
     text-align: center;
-    background-color: red;
+    background-color: black;
 
 }
