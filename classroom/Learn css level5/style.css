@@ -1,0 +1,30 @@
+.diva{
+    height: 200px;
+    width: 200px;
+    border: solid 1px black;
+    background-color: red;
+}
+
+.diva:hover{
+    background-color: green;
+    color: white;
+}
+
+.diva:active{
+    background-color: yellow;
+    color: aqua;
+}
+.divb{
+    height: 300px;
+    width: 300px;
+    background-color: brown;
+    
+
+}
+
+.divb:hover{
+    transition-property: all;
+    transition-duration: 3;
+    background-color: blueviolet;
+    transition-timing-function: ease-in;
+}
