@@ -1,19 +1,12 @@
-header {
-  text-align: center;
-}
 
-body {
-  text-align: center;
-  border: solid 1px black;
-  display: inline-block;
-  
-}
+
 
 #container {
-  height: 500px;
-  width: 200;
- 
-  
+  height: 800px;
+  width: 300;
+ display: flex;
+  flex-direction: row;
+  justify-content: space-around;
  
 }
 
@@ -25,15 +18,41 @@ body {
 #box2 {
  
   background-color: red;
-  /* display: inline-block; */
+  
 }
 #box3 {
   
   background-color: aqua;
-  /* display: inline-block; */
+ 
 }
 #box4 {
  
   background-color: tomato;
-  /* display: inline-block; */
+  
+}
+.navbar{
+  height: 60px;
+  border: solid 1px blue;
+  display: flex;
+ 
+}
+li{
+  list-style: none;
+  display: inline;
+  
+}
+
+.outerdiv{
+  height: 200px;
+  width: 200px;
+  background-color: chartreuse;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.innerdiv{
+  height: 100px;
+  width: 100px;
+  background-color: chocolate;
 }
