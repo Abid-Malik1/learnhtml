@@ -9,6 +9,7 @@
     background-color: #0f1111;
     color: white;
     display: flex;
+    align-items: center;
 }
 .nav-logo{
     height: 50px;
@@ -26,4 +27,25 @@
 
 .border:hover{
     border: 1.3px solid white;
+}
+
+.address-first{
+color: #CCCCCC;
+font-size: 0.80rem;
+margin-left: 15px;
+}
+
+.address-secound{
+color: white;
+font-size: 1rem;
+margin-left: 3px;
+}
+
+.address-icon{
+    display: flex;
+    align-items: center;
+}
+
+.search-bar{
+    display: flex;
 }
