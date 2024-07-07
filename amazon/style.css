@@ -123,6 +123,41 @@ span{
 
 .hero-section{
     background-image: url("./hero_image.jpg");
-    height: 600px;
+    height: 400px;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+.hero-msg{
+    background-color: white;
+    color: #0f1111;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 90%;
+    margin-bottom: 40px;
+}
+
+.hero-msg a{
+    color: #001850;
+}
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: whitesmoke;
+}
+
+.box{
+    border: 2px solid black;
+    height: 400px;
+    width: 23%;
+    background-color: white;
+}
+
+.box-img{
+    height: 300px;
 }
